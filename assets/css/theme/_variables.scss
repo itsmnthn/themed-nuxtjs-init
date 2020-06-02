@@ -1,0 +1,30 @@
+// Light theme
+@import "light/colors";
+@import "light/variables";
+// Dark theme
+@import "dark/colors";
+@import "dark/variables";
+// Other
+@import "colors";
+
+$border-radius-16: 16px;
+$border-radius-8: 8px;
+
+// padding sizes
+$paddingSizes: 0, 1, 2, 4, 6, 8, 12, 16, 20, 24, 28, 32, 40, 60, 80, 100, 120;
+$paddingTypes: (
+  "ps": "padding",
+  "ms": "margin",
+);
+
+// Media queries constraines for devices
+// Extra small devices (portrait phones, less than 576px)
+$xs-devices: "(max-width: 575.98px)";
+// Small devices (landscape phones, 576px and up)
+$sm-devices: "(min-width: 576px)";
+// Medium devices (tablets, 768px and up)
+$md-devices: "(min-width: 768px)";
+// Large devices (desktops, 992px and up)
+$lg-devices: "(min-width: 992px)";
+// Extra large devices (large desktops, 1200px and up)
+$xl-devices: "(min-width: 1200px)";

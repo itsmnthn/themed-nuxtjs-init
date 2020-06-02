@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+@import "bootstrap";
+
+$themes: (
+  default: (
+    bg: $bg--light,
+    border: $text--light,
+    text-color: $text--light,
+  ),
+  dark: (
+    bg: $bg--dark,
+    border: $text--dark,
+    text-color: $text--dark,
+  ),
+);
+
+// Set the default theme
+$default-theme: map-get($themes, default);
